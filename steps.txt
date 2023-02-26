@@ -4,3 +4,20 @@
 4.Use connection String to connect to Database
 replace <username>,<password>  and add database name after "mongodb.net/"
 MONGO_CONN_STRING = mongodb+srv://beingzero:beingzero@cluster0.qczwd.mongodb.net/neetcode-clone?retryWrites=true&w=majority
+
+Defining a schema in mongodb:
+-columns and their data types
+Create a Model:
+-schema + tablename
+-model provides us crud functions
+Define a lib(Our own file that will have function we need)
+JSON:
+const a = { //object
+    "title" :"DSA",
+    "level":"easy"
+}
+const a = { //object
+    "title" :"DSA",
+    "level":"easy"
+    "authors" : ["author1","author2"]
+}
