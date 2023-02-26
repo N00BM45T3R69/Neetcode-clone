@@ -1,0 +1,6 @@
+1.Get connection String
+2.Set connection String in CYCLIC
+3.Set connection String in Local Environment
+4.Use connection String to connect to Database
+replace <username>,<password>  and add database name after "mongodb.net/"
+MONGO_CONN_STRING = mongodb+srv://beingzero:beingzero@cluster0.qczwd.mongodb.net/neetcode-clone?retryWrites=true&w=majority
