@@ -4,13 +4,14 @@ const app = express();//calling
 var name = "Abhiram"
 
 app.use(express.static("frontend"))
-app.get("/html",function(req,res){
-    res.sendFile(__dirname+"frontend/index.html")
-});
 
 app.get("/",function(req,res){
     res.sendFile("Hello World!")
 });
+app.get("/index",function(req,res){
+    res.sendFile(__dirname+"frontend/index.html")
+});
+
 app.get("/myname",function(req,res){
     res.send(`My name is ${name}`)
 });
