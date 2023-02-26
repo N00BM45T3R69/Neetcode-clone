@@ -6,6 +6,7 @@ const connstr = process.env.MONGO_CONN_STRING;
 const express = require("express");//creating application
 
 
+
 const app = express();//calling
 mongoose.set('strictQuery', true);
 
